@@ -97,6 +97,8 @@ static const Key keys[] = {
   { MODKEY,                       XK_q,      spawn,          SHCMD("~/.local/bin/dmenukaomoji")},
   { MODKEY|ShiftMask,             XK_b,      spawn,          SHCMD("~/.local/bin/dmenubookmark")},
 
+  { MODKEY|ShiftMask,             XK_f,      togglefullscr,  {0} },
+
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
