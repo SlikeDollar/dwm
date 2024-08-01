@@ -1,0 +1,12 @@
+CompileFlags:
+  Add: 
+    - -std=c11
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Iconfig.h
+    - -Iconfig.mk
+    - -I.
+    - -I/usr/include
+    - -I/usr/local/include
+    - -I${workspaceFolder}  # Adjust this if needed
